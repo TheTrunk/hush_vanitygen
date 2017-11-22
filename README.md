@@ -3,7 +3,7 @@ Hush vanitygen - Create address you desire!
 
 !!!STATE: Not working properly!!! DO NOT USE!
 
-Forked from https://github.com/samr7/vanitygen and made working for Hush.
+Forked from https://github.com/samr7/vanitygen , https://github.com/exploitagency/vanitygen_z and made working for Hush.
 
 Usage: TBD
 
