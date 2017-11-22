@@ -331,7 +331,7 @@ int
 main(int argc, char **argv)
 {
 	int addrtype = 0x1cb8;		// Hush t_address two-byte prefix value.
-	int privtype = 0x80; // Hush uses the same private key prefix as bitcoin.
+	int privtype = 128; // Private key prefix for bitcoin. What is for hush?TODO
 	int scriptaddrtype = 0x1cbd;
 	int pubkeytype;
 	enum vg_format format = VCF_PUBKEY;
