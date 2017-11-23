@@ -98,7 +98,7 @@ vg_thread_loop(void *arg)
 	rekey_at = 0;
 	nbatch = 0;
 	vxcp->vxc_key = pkey;
-	vxcp->vxc_binres[0] = vcp->vc_addrtype >> 8;	// Hush t_addresses have a two byte prefix. Luckily, binres[] can take a few extra bytes.
+	vxcp->vxc_binres[0] = vcp->vc_addrtype>>8;	// Hush t_addresses have a two byte prefix. Luckily, binres[] can take a few extra bytes.
 	vxcp->vxc_binres[1] = vcp->vc_addrtype;	
 	c = 0;
 	output_interval = 1000;
