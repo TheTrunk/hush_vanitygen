@@ -272,7 +272,7 @@ vg_encode_script_address(const EC_POINT *ppoint, const EC_GROUP *pgroup,
 	unsigned char script_buf[69];
 	unsigned char *eckey_buf = script_buf + 2;
 	//	unsigned char binres[21] = {0,};
-	unsigned char binres[22] = { 0, };	// Prefix + 20 byte RIPEMD() output.  
+	unsigned char binres[22] = { 0,};	// Prefix + 20 byte RIPEMD() output.  
 	unsigned char hash1[32];
 
 	script_buf[0] = 0x51;  // OP_1
