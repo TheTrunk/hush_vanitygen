@@ -1,5 +1,6 @@
-# hush_vanitygen
+# hush_vanitygen NOT WORKING
 Hush vanitygen - Create address you desire!
+use https://github.com/TheTrunk/hushgen instead
 
 !!!STATE: Not working properly!!! DO NOT USE!
 
